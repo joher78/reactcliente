@@ -1,7 +1,19 @@
-import React from 'react'
+
+
+
+import { ListClient } from "./ListClient";
+
+
 
 export const Cliente = () => {
-  return (
-    <div>Cliente</div>
-  )
-}
+ 
+  return ( 
+  <>
+  <ListClient/>
+
+  
+  </>
+  
+     
+  );
+};
